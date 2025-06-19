@@ -181,6 +181,9 @@ namespace Quaver.Shared.Modifiers
                     case ModIdentifier.NoMiss:
                         mods.Add(new ModNoMiss());
                         break;
+                    case ModIdentifier.LenientLN:
+                        mods.Add(new ModLenientLN());
+                        break;
                     default:
                         Logger.Warning($"Cannot convert {mod} to its appropriate IModifier class.", LogType.Runtime);
                         break;

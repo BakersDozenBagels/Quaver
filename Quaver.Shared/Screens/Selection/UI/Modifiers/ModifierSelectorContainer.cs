@@ -112,6 +112,7 @@ namespace Quaver.Shared.Screens.Selection.UI.Modifiers
                             new SelectableModifierBool(width, new ModCoop()),
                             new SelectableModifierBool(width, new ModNoFail()),
                             new SelectableModifierBool(width, new ModNoSliderVelocities()),
+                            new SelectableModifierBool(width, new ModLenientLN()),
                             new SelectableModifierBool(width, new ModNoLongNotes()),
                             new SelectableModifierBool(width, new ModFullLN()),
                             new SelectableModifierBool(width, new ModInverse()),
